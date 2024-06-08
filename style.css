@@ -1,0 +1,93 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: right;
+    display: block;
+    line-height: 1;
+    margin: 0 auto 0 auto;
+    font-size: 96px;
+    font-weight: 10;
+    text-shadow: 0px 0px 1px black;
+    color: white;
+    transition: all 0.3s ease-in;
+    width: fit-content;
+}
+
+h1:hover {
+    line-height: 0.8;
+    font-weight: 1000;
+    font-size: 128px;
+    text-shadow: 5px 5px 1px red, 10px 10px 3px orange, 15px 15px 6px yellow;
+    color: black;
+    transition: all 0.1s ease-out;
+    transform: rotate(6deg);
+}
+
+.link-header {
+    display: inline-block;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: white;
+    /* text-shadow: 0px 0px 1px black; */
+    box-shadow: 0px 0px 1px 0px black inset;
+    border-radius: 3px;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    transition: all 0.1s linear;
+}
+
+.link-header:hover {
+    color:white;
+    transition: all 0.1s ease-in-out;
+    text-shadow: 0px 0px 5px darkblue;
+    box-shadow: 0px 0px 2px 0px white inset;
+    background-color: lightskyblue;
+    border-radius: 7px;
+    transform: translateY(-2px);
+}
+
+.link-header:focus {
+    background-color: royalblue;
+    color: white;
+    text-shadow: 0px 5px 2px black, 0px 0px 5px white;
+    box-shadow: 0px 5px 2px 1px black inset;
+    border-radius: 20px;
+    transition: all 0.1s ease-out;
+    transform: translateY(2px);
+}
+
+/* .link-header:visited {
+    font-weight: normal;
+    text-decoration: none;
+    background-color: white;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 1px 0px lightslategray inset;
+    border-radius: 3px;
+    color: lightslategray;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    transition: all 0.1s linear;
+} */
+
+iframe {
+    display: block;
+    margin: 0 auto 0 auto;
+    opacity: 0.5;
+    transition: all 0.1s linear;
+}
+
+iframe:hover {
+    opacity: 1;
+    transition: all 0.1s linear;
+}
+
+header {
+    padding: 10px;
+}
+
+span {
+    background-color: yellow;
+}
